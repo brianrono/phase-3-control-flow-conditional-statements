@@ -43,13 +43,9 @@ def calculator(operation, num1, num2)
   when "*"
     num1 * num2
   when "/"
-    if num2 != 0
       num1 / num2
-    else
-      nil
-    end
   else
-    "Error: Invalid operation"
+    p "Error: Invalid operation!"
     nil
   end
 end
